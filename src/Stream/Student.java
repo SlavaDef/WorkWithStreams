@@ -18,8 +18,8 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student with name "+ getName()+ " his/her sex is "+ getSex()+" age = "+ getAge()+
-                " on the " + getCourse()+" course and avg = "+ getAvgGrade();
+        return "Student with name "+ getName()+ ", his/her sex is "+ getSex()+", age = "+ getAge()+
+                ", on the " + getCourse()+", course and avg = "+ getAvgGrade();
 
     }
 
